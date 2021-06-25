@@ -1,4 +1,10 @@
+body {
+    margin: 0;
+    background: lightseagreen;
+}
+
 h1 {
+    background: lightsalmon;
     color: black;
     border-bottom: 1px solid lightgray;
 }

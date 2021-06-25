@@ -1,10 +1,42 @@
+/*
+Box Model:
+
+https://www.w3schools.com/css/css_boxmodel.asp
+
+1. Content - The content of the box, where text and images appear
+2. Padding - Clears an area around the content. The padding is transparent
+3. Border - A border that goes around the padding and content
+4. Margin - Clears an area outside the border. The margin is transparent
+*/
+
 body {
     margin: 0;
-    background: lightseagreen;
+    padding: 20px;
+    text-align: center;
+}
+
+* {
+    border: 2px solid red;
 }
 
 h1 {
-    background: lightsalmon;
+    background: lightgrey;
     color: black;
-    border-bottom: 1px solid lightgray;
+}
+
+h2 {
+    background: lightgreen;
+}
+
+h3 {
+    background: lightyellow;
+}
+
+div {
+    display: inline-block;
+    background: lightskyblue;
+    margin: 20px;
+    padding: 20px;
+    width: 300px;
+    height: 100px;
 }
